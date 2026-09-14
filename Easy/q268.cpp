@@ -12,6 +12,7 @@ vector<int> missingNumber(vector<int>& nums, int n) {
             return {i};
         }
     }
+    return {n};
 }
 
 int main() {
